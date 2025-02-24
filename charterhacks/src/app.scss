@@ -1,0 +1,83 @@
+:global(body) {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #0a192f;
+  color: #ccd6f6;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #1f4068, #0a192f);
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    .btn-primary, .btn-secondary {
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .btn-primary {
+      background-color: #64ffda;
+      color: #0a192f;
+    }
+
+    .btn-secondary {
+      border: 2px solid #64ffda;
+      color: #64ffda;
+    }
+  }
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+
+  .countdown-item {
+    text-align: center;
+
+    span:first-child {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    span:last-child {
+      font-size: 0.9rem;
+      color: #8892b0;
+    }
+  }
+}
+.btn-primary, .btn-secondary {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.theme-reveal {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
