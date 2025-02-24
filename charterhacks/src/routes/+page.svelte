@@ -8,16 +8,25 @@
 <section class="hero">
     <div class="container">
         <h1 in:fly={{ y: -50, duration: 1000 }} out:fade>Welcome to CharterHacks 2025!</h1>
-        <p in:fly={{ y: -50, duration: 1000, delay: 200 }} out:fade>Join us for a 24-hour hackathon where innovation meets creativity.</p>
+
+        <p in:fly={{ y: -50, duration: 1000, delay: 200 }} out:fade>Join us for a 48-hour hackathon where innovation meets creativity.</p>
         <div class="cta-buttons" in:fly={{ y: -50, duration: 1000, delay: 400 }} out:fade>
             <a href="/register" class="btn-primary">Register Now</a>
             <a href="/schedule" class="btn-secondary">View Schedule</a>
         </div>
+
         <Countdown targetDate={hackathonDate} />
+
+        <img src="../../static/logo_braintext.png" alt="CharterHacks Logo" />
+
     </div>
 </section>
 
 <style>
+    img {
+        max-width: 45%;
+        padding: 20px;
+    }
     .hero {
         text-align: center;
         padding: 100px 20px;

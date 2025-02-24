@@ -5,7 +5,7 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
 		fs: {
-			allow: ['C:/Users/david/WebstormProjects/charterhacks-website/charterhacks/static'],
+			allow: ['C:/Users/david/WebstormProjects/untitled4/charterhacks/static/'],
 		},
 	},
 });
