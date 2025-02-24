@@ -29,7 +29,7 @@
             Ready to be part of something amazing? Register now and join us for an unforgettable experience. Whether you're here
             to learn, build, or compete, CharterHacks has something for everyone.
         </p>
-        <a href="/register" class="btn-primary">Register Now</a>
+        <a href="https://forms.gle/sNiKr7SGaqHuAwnk8" class="btn-primary">Register Now</a>
     </div>
 </div>
 

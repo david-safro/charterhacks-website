@@ -11,7 +11,7 @@
 
         <p in:fly={{ y: -50, duration: 1000, delay: 200 }} out:fade>Join us for a 48-hour hackathon where innovation meets creativity.</p>
         <div class="cta-buttons" in:fly={{ y: -50, duration: 1000, delay: 400 }} out:fade>
-            <a href="/register" class="btn-primary">Register Now</a>
+            <a href="https://forms.gle/sNiKr7SGaqHuAwnk8" class="btn-primary">Register Now</a>
             <a href="/schedule" class="btn-secondary">View Schedule</a>
         </div>
 

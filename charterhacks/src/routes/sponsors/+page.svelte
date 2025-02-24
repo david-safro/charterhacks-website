@@ -8,7 +8,7 @@
     };
 </script>
 
-<h1>Our Sponsors</h1>
+<h1>Thank you Charterhacks sponsors for making this possible!</h1>
 
 <div class="sponsors-list">
     <div class="sponsor-tier" in:fly={{ y: 50, duration: 1000 }} out:fade>
