@@ -5,7 +5,12 @@ export default defineConfig({
 	plugins: [sveltekit()],
 	server: {
 		fs: {
-			allow: ['C:/Users/david/WebstormProjects/untitled4/charterhacks/static/'],
+			// Allow serving files from the project root
+			allow: ['.'],
 		},
+	},
+	build: {
+		// Ensure static assets are optimized
+		assetsInlineLimit: 0, // Disable inlining small assets (optional)
 	},
 });
