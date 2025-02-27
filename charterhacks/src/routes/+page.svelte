@@ -22,7 +22,7 @@
             <a href="/schedule" class="btn-secondary">View Schedule</a>
         </div>
         <Countdown targetDate={hackathonDate} />
-        <img src="../../static/logo_braintext.png" alt="CharterHacks Logo" />
+        <img src="https://d33wubrfki0l68.cloudfront.net/821d7d520ebb22f3e3be2a2db3ed91842848ba97/9b328/img/logo_braintext.png" alt="CharterHacks Logo" />
     </div>
 </section>
 

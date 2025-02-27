@@ -5,7 +5,7 @@
 <header>
     <nav>
         <a href="/" class="logo" in:fly={{ y: -50, duration: 1000 }} out:fade>
-            <img src="../../../static/logo_braintext.png" alt="CharterHacks Logo" />
+            <img src="https://d33wubrfki0l68.cloudfront.net/821d7d520ebb22f3e3be2a2db3ed91842848ba97/9b328/img/logo_braintext.png" alt="CharterHacks Logo" />
         </a>
         <div class="nav-links">
             <a href="/about" in:fly={{ y: -50, duration: 1000, delay: 100 }} out:fade>About</a>
@@ -19,7 +19,7 @@
 <style>
     header {
         background-color: #112240;
-        padding: 20px;
+        padding: 6px;
     }
 
     nav {
@@ -31,7 +31,7 @@
     }
 
     .logo img {
-        height: 50px;
+        height: 40px;
         transition: transform 0.3s ease;
 
         &:hover {
