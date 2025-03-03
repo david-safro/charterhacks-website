@@ -5,7 +5,7 @@
     import { onMount } from 'svelte';
     import Countdown from '$lib/components/Countdown.svelte';
 
-    const hackathonDate = new Date('2025-03-16T12:00:00');
+    const hackathonDate = new Date('2025-03-29T10:30:00');
     let loaded = false;
 
     onMount(() => {
@@ -16,7 +16,7 @@
 <section class="hero">
     <div class="container">
         <h1 in:fly={{ y: -50, duration: 1000, delay: loaded ? 0 : 500 }} out:fade>Welcome to CharterHacks 2025!</h1>
-        <p in:fly={{ y: -50, duration: 1000, delay: loaded ? 200 : 700 }} out:fade>Join us for a 24-hour hackathon where innovation meets creativity.</p>
+        <p in:fly={{ y: -50, duration: 1000, delay: loaded ? 200 : 700 }} out:fade>Join us for a fun hackathon at the Charter School of Wilmington on April 29th.</p>
         <div class="cta-buttons" in:fly={{ y: -50, duration: 1000, delay: loaded ? 400 : 900 }} out:fade>
             <a href="/register" class="btn-primary">Register Now</a>
             <a href="/schedule" class="btn-secondary">View Schedule</a>
@@ -29,7 +29,7 @@
 <section class="theme" in:fly={{ y: 50, duration: 1000, delay: loaded ? 600 : 1100 }} out:fade>
     <h2>Theme</h2>
     <div class="theme-content">
-        <p>Building the Future of Education</p>
+        <p>To be announced!</p>
     </div>
 </section>
 
@@ -48,7 +48,7 @@
             100% { background-position: 0% 50%; }
         }
         img {
-            max-width: 45%;
+            max-width: 35%;
             padding: 20px;
         }
 

@@ -4,15 +4,15 @@
     const faqs = [
         {
             question: "What is CharterHacks?",
-            answer: "CharterHacks is a 24-hour hackathon where participants collaborate to build innovative projects.",
+            answer: "CharterHacks is a 2 day hackathon where participants collaborate to build innovative projects.",
         },
         {
             question: "Who can participate?",
-            answer: "Anyone with a passion for technology and innovation can participate, regardless of experience level.",
+            answer: "Anyone with a passion for technology and innovation can participate, regardless of experience level. We will have 2 divisions, one for high school, and one for middle school.",
         },
         {
             question: "Do I need a team?",
-            answer: "You can participate solo or in teams of up to 4 people. We'll also have team formation sessions!",
+            answer: "You can participate solo or in teams of up to 6 people. We recommend a minimum of 2 people to build the spirit of collaboration. Note that having too many people can be an obstacle too!",
         },
         {
             question: "What should I bring?",
@@ -24,7 +24,11 @@
         },
         {
             question: "Will there be food?",
-            answer: "Yes, we'll provide meals, snacks, and drinks throughout the event.",
+            answer: "Yes, we'll provide food and drinks at the event.",
+        },
+        {
+            question: "I have another question",
+            answer: "Feel free to email the organizers at safro.david@charterschool.org or chakraborty.anish@charterschool.org with any additional questions.",
         },
     ];
 </script>

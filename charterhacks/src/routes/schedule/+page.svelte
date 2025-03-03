@@ -3,16 +3,17 @@
 
     const schedule = [
         {
-            day: "Day 1 - April 16, 2025",
+            day: "Day 1 - April 29, 2025",
             events: [
-                { time: "10:00 AM", title: "Kickoff & Welcome", description: "Opening ceremony and keynote speech." },
-                { time: "11:00 AM", title: "Hacking Begins", description: "Start building your projects!" },
-                { time: "12:00 PM", title: "Lunch", description: "Enjoy a delicious meal with fellow hackers." },
-                { time: "2:00 PM", title: "Workshop: Intro to AI", description: "Learn the basics of AI and machine learning." },
-                { time: "4:00 PM", title: "Workshop: Web Development", description: "Build modern web apps with SvelteKit." },
-                { time: "6:00 PM", title: "Dinner", description: "Refuel with a hearty dinner." },
-                { time: "8:00 PM", title: "Mini-Game: Trivia Night", description: "Test your knowledge and win prizes!" },
-                { time: "10:00 PM", title: "Late-Night Snacks", description: "Pizza and snacks to keep you going." },
+                { time: "10:00 AM", title: "Doors open", description: "Official arrival time starts." },
+                { time: "10:30 AM", title: "Kickoff & Welcome", description: "Opening ceremony and introduction." },
+                { time: "11:00 AM", title: "Competition Begins", description: "Start building your projects!" },
+                { time: "11:20 AM", title: "Workshop 1: Basic programming", description: "Learn about basic programming in python and Javascript." },
+                { time: "12:30 PM", title: "Lunch", description: "Don't expect anything too fancy" },
+                { time: "2:00 PM", title: "Workshop 2: Web Development", description: "Learn the fundamentals of web development with Ian Porell" },
+                { time: "4:00 PM", title: "Snacks", description: "Light snack to keep your strength" },
+                { time: "5:00 PM", title: "Workshop 3: AI fundamentals", description: "Learn the basics of AI and machine learning with Anish Chakraborty" },
+                { time: "6:00 PM", title: "Conclusion", description: "First day ends." },
             ],
         },
         {
