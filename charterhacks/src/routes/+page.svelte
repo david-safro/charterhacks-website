@@ -18,7 +18,7 @@
         <h1 in:fly={{ y: -50, duration: 1000, delay: loaded ? 0 : 500 }} out:fade>Welcome to CharterHacks 2025!</h1>
         <p in:fly={{ y: -50, duration: 1000, delay: loaded ? 200 : 700 }} out:fade>Join us for a fun hackathon at the Charter School of Wilmington on April 29th.</p>
         <div class="cta-buttons" in:fly={{ y: -50, duration: 1000, delay: loaded ? 400 : 900 }} out:fade>
-            <a href="/register" class="btn-primary">Register Now</a>
+            <a href="https://forms.gle/xHZBztMAU8ef8V6p9" class="btn-primary">Register Now</a>
             <a href="/schedule" class="btn-secondary">View Schedule</a>
         </div>
         <Countdown targetDate={hackathonDate} />
